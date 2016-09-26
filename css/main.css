@@ -1,0 +1,106 @@
+#sectionMenu{
+    width: 70%;
+    height: 78%;
+    background: #0068a7;
+    border-radius: 2%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+@media only screen and (max-width: 990px) {
+    #sectionMenu {
+        height: 120%;
+    }
+}
+
+.btn{
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 25px;
+    background-color: floralwhite;
+}
+/*-------------------------------------------*/
+.olcu2{
+    height: 450px;
+    font-size: 16.5px;
+    font-weight: 500;
+    display: table-cell;
+    border-left: 1px solid white;
+    padding-top: 25px;
+}
+
+.olcu2 ul li a{
+    color: white;
+}
+
+.olcu2 ul li a:hover{
+    text-decoration: underline;
+}
+
+/*--------------------------------------*/
+
+.top{
+    height: 170px; 
+    display: block;
+    font-size: 16.5px;
+    font-weight: 500;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid white;
+}
+
+.top ul li a{
+    color: white;
+}
+
+.top ul li a:hover{
+    text-decoration: underline;
+}
+
+/*---------------------------------*/
+
+.bottom{
+    height: 300px;
+    font-size: 16.5px;
+    font-weight: 500;
+    padding-top: 30px;
+    
+    padding: 30px 0 0 0;
+}
+
+.bottom ul li a{
+    color: white;
+}
+
+.bottom ul li a:hover{
+    text-decoration: underline;
+}
+
+.olcu2 ul li{
+    padding-bottom: 15px;
+}
+
+.olcu2 ul li span{
+    padding-right: 10px;
+}
+
+.top ul li{
+    padding-bottom: 15px;
+}
+
+.top ul li span{
+    padding-right: 10px;
+}
+
+.bottom ul li{
+    padding-bottom: 15px;
+}
+
+.bottom ul li span{
+    padding-right: 10px;
+}
